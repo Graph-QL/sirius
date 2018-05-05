@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import TodoForm from '../TodoForm/TodoForm';
+
+
 class App extends Component {
   render() {
     return (
@@ -8,9 +11,8 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">To-Doooo</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <TodoForm />
       </div>
     );
   }
